@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		07D05F5C2810553A0051585F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07D05F5B2810553A0051585F /* main.cpp */; };
+		07D05F65281056ED0051585F /* cat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07D05F63281056ED0051585F /* cat.cpp */; };
+		07F9532228133DBF00C98DA1 /* animal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07F9532028133DBF00C98DA1 /* animal.cpp */; };
+		07F9532528133DD300C98DA1 /* dog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07F9532328133DD300C98DA1 /* dog.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,13 @@
 /* Begin PBXFileReference section */
 		07D05F582810553A0051585F /* HW 6 - operation kindness */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "HW 6 - operation kindness"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07D05F5B2810553A0051585F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		07D05F622810559F0051585F /* Animal Shelter Data-05.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Animal Shelter Data-05.csv"; sourceTree = "<group>"; };
+		07D05F63281056ED0051585F /* cat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cat.cpp; sourceTree = "<group>"; };
+		07D05F64281056ED0051585F /* cat.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = cat.hpp; sourceTree = "<group>"; };
+		07F9532028133DBF00C98DA1 /* animal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = animal.cpp; sourceTree = "<group>"; };
+		07F9532128133DBF00C98DA1 /* animal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = animal.hpp; sourceTree = "<group>"; };
+		07F9532328133DD300C98DA1 /* dog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dog.cpp; sourceTree = "<group>"; };
+		07F9532428133DD300C98DA1 /* dog.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = dog.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,13 @@
 			isa = PBXGroup;
 			children = (
 				07D05F5B2810553A0051585F /* main.cpp */,
+				07D05F622810559F0051585F /* Animal Shelter Data-05.csv */,
+				07F9532028133DBF00C98DA1 /* animal.cpp */,
+				07F9532128133DBF00C98DA1 /* animal.hpp */,
+				07D05F63281056ED0051585F /* cat.cpp */,
+				07D05F64281056ED0051585F /* cat.hpp */,
+				07F9532328133DD300C98DA1 /* dog.cpp */,
+				07F9532428133DD300C98DA1 /* dog.hpp */,
 			);
 			path = "HW 6 - operation kindness";
 			sourceTree = "<group>";
@@ -119,7 +136,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07D05F65281056ED0051585F /* cat.cpp in Sources */,
 				07D05F5C2810553A0051585F /* main.cpp in Sources */,
+				07F9532528133DD300C98DA1 /* dog.cpp in Sources */,
+				07F9532228133DBF00C98DA1 /* animal.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
